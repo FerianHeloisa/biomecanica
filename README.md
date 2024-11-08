@@ -48,9 +48,5 @@ Este projeto realiza a reconstrução 3D da trajetória de uma bola chutada, uti
   - `scipy`
   - `mpl_toolkits`
 
-## Créditos
-
-Projeto realizado com base em referências de código fornecidas pelo professor e por colegas. Adaptado para execução no Google Colab.
-
 ---
 
