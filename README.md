@@ -8,8 +8,6 @@ Este projeto realiza a reconstrução 3D da trajetória de uma bola chutada, uti
   - `c1.avi` e `c2.avi`: vídeos das câmeras 1 e 2 que mostram o movimento da bola.
   - `c1cal.avi` e `c2cal.avi`: vídeos de calibração para definir pontos de referência e permitir a reconstrução 3D.
 
-- **Código Python (Google Colab)**: Script que executa a leitura dos vídeos, calibração, e reconstrução 3D da trajetória da bola.
-
 ## Funcionalidades
 
 1. **Calibração**: Realiza a transformação das coordenadas 2D dos pontos de calibração nos vídeos para um sistema de coordenadas 3D usando DLT.
@@ -17,24 +15,21 @@ Este projeto realiza a reconstrução 3D da trajetória de uma bola chutada, uti
 3. **Reconstrução da Trajetória 3D**: Utiliza as coordenadas 2D e a calibração para reconstruir a trajetória 3D da bola.
 4. **Visualização e Análise**: Gera gráficos e salva resultados para análise da trajetória.
 
-## Passo a Passo para Executar o Projeto
-
-1. **Carregar o Script no Google Colab**:
-   - Importe o código para um notebook no Google Colab.
+## Passos para Execução do Projeto
    
-2. **Importar Bibliotecas Necessárias**:
+1. **Importar Bibliotecas Necessárias**:
    - O script requer `numpy`, `pandas`, `opencv`, `matplotlib`, `scipy`, e `mpl_toolkits`. Execute `!pip install` para instalar pacotes que não estejam no ambiente do Colab.
 
-3. **Carregar os Arquivos de Vídeo**:
+2. **Carregar os Arquivos de Vídeo**:
    - Faça o upload dos arquivos `c1.avi`, `c2.avi`, `c1cal.avi` e `c2cal.avi` para o diretório de trabalho no Colab.
 
-4. **Executar o Código**:
+3. **Executar o Código**:
    - Siga as instruções no notebook para definir os parâmetros de calibração, realizar a extração de coordenadas 2D e reconstruir a trajetória 3D.
 
-5. **Visualizar os Resultados**:
+4. **Visualizar os Resultados**:
    - O script gera gráficos da trajetória reconstruída e exibe as velocidades calculadas.
 
-6. **Salvar Resultados**:
+5. **Salvar Resultados**:
    - Os resultados, incluindo os dados da trajetória e velocidades, podem ser exportados para análise adicional.
 
 ## Dependências
